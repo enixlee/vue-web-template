@@ -1,0 +1,4 @@
+build/*.js
+config/*.js
+.env
+.env.public.test

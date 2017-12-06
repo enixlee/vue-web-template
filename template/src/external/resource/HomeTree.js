@@ -1,0 +1,250 @@
+export const treeNodes = [
+  {
+    name: 'TREE_PREPAIDCARD',
+    key: 'PrePaidCard',
+    actionType: '0',
+    icon: 'icon_nav_operate.png',
+    children: [
+      {
+        name: 'TREE_PREPAIDCARD_OPERATION_SELL',
+        key: 'SellCard',
+        actionType: '1',
+        icon: '',
+        permission: [63]
+      },
+      {
+        name: 'TREE_PREPAIDCARD_OPERATION_RECHARGE',
+        key: 'Recharge',
+        actionType: '1',
+        icon: '',
+        permission: [62]
+      },
+      {
+        name: 'TREE_PREPAIDCARD_OPERATION_QUERY',
+        key: 'QueryCard',
+        actionType: '1',
+        icon: '',
+        permission: [57]
+      }
+    ],
+    permission: [63, 62, 57]
+  },
+  {
+    name: 'TREE_PREPAIDCARD_MANAGE',
+    key: 'PrePaidCard_Manage',
+    actionType: '0',
+    icon: 'icon_nav_manage.png',
+    children: [
+      {
+        name: 'TREE_PREPAIDCARD_MANAGE_CARDTYPE',
+        key: 'CardType',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_CARDTYPE_LIST',
+            key: 'CardTypeList',
+            actionType: '1',
+            icon: '',
+            permission: [48]
+          },
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_CARDTYPE_ADD',
+            key: 'CardTypeAdd',
+            actionType: '1',
+            icon: '',
+            permission: [46]
+          }
+        ],
+        permission: [48, 46]
+      },
+      {
+        name: 'TREE_PREPAIDCARD_MANAGE_FABRICATION',
+        key: 'Fabrication',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_FABRICATION_RECORD',
+            key: 'FabricationRecord',
+            actionType: '1',
+            icon: '',
+            permission: [52, 51, 53]
+          },
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_FABRICATION_ADD',
+            key: 'FabricationAdd',
+            actionType: '1',
+            icon: '',
+            permission: [49]
+          }
+        ],
+        permission: [52, 51, 53, 49]
+      },
+      {
+        name: 'TREE_PREPAIDCARD_MANAGE_STORE_RECEIVE_CARD',
+        key: 'StoreReceiveCard',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_STORE_RECEIVE_CARD_SUB_COMPANY',
+            key: 'ReceiveCardList',
+            actionType: '1',
+            icon: '',
+            permission: [42, 44]
+          },
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_STORE_RECEIVE_CARD_RECORD',
+            key: 'ReceiveCardRecord',
+            actionType: '1',
+            icon: '',
+            permission: [71]
+          }
+        ],
+        permission: [42, 44, 71]
+      },
+      {
+        name: 'TREE_PREPAIDCARD_MANAGE_STOCK',
+        key: 'Stock_Manage',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_STOCK_TRADE',
+            key: 'CardStock',
+            actionType: '1',
+            icon: '',
+            permission: [60]
+          },
+          {
+            name: 'TREE_PREPAIDCARD_MANAGE_STOCK_RECEIVE',
+            key: 'CardStockReceive',
+            actionType: '1',
+            icon: '',
+            permission: [74]
+          }
+        ],
+        permission: [60, 74]
+      }
+    ],
+    permission: [48, 46, 52, 51, 53, 49, 42, 44, 71, 60]
+  },
+  {
+    name: 'TREE_TRANSACTION',
+    key: 'Transaction',
+    actionType: '0',
+    icon: 'icon_nav_trade.png',
+    children: [
+      {
+        name: 'TREE_TRANSACTION_PREPAIDCARD',
+        key: 'CardTransaction',
+        actionType: '1',
+        icon: '',
+        permission: [30]
+      },
+      {
+        name: 'TREE_TRANSACTION_REPORT',
+        key: 'CardTransactionReport',
+        actionType: '1',
+        icon: '',
+        permission: [15, 67, 68]
+      }
+    ],
+    permission: [30, 15, 67, 68]
+  },
+  {
+    name: 'TREE_POS_MACHINE',
+    key: 'PosMachine',
+    actionType: '0',
+    icon: 'icon_nav_pos.png',
+    children: [
+      {
+        name: 'TREE_POS_MACHINE_QUERY',
+        key: 'PosMachineQuery',
+        actionType: '1',
+        icon: '',
+        permission: [12]
+      }
+    ],
+    permission: [12]
+  },
+  {
+    name: 'TREE_SYSTEM',
+    key: 'System',
+    actionType: '0',
+    icon: 'icon_nav_system.png',
+    children: [
+      {
+        name: 'TREE_SYSTEM_STORE',
+        key: 'Store',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_SYSTEM_STORE_LIST',
+            key: 'StoreList',
+            actionType: '1',
+            icon: '',
+            permission: [26, 25]
+          },
+          {
+            name: 'TREE_SYSTEM_STORE_ADD',
+            key: 'StoreAdd',
+            actionType: '1',
+            icon: '',
+            permission: [22]
+          }
+        ],
+        permission: [26, 25, 22]
+      },
+      {
+        name: 'TREE_SYSTEM_USER',
+        key: 'User',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_SYSTEM_USER_LIST',
+            key: 'UserList',
+            actionType: '1',
+            icon: '',
+            permission: [35, 32, 34, 36]
+          },
+          {
+            name: 'TREE_SYSTEM_USER_ADD',
+            key: 'UserAdd',
+            actionType: '1',
+            icon: '',
+            permission: [31]
+          }
+        ],
+        permission: [35, 32, 34, 36, 31]
+      },
+      {
+        name: 'TREE_SYSTEM_USER_PERMISSION',
+        key: 'Permission',
+        actionType: '0',
+        icon: '',
+        children: [
+          {
+            name: 'TREE_SYSTEM_USER_PERMISSION_LIST',
+            key: 'PermissionList',
+            actionType: '1',
+            icon: '',
+            permission: [7, 6]
+          },
+          {
+            name: 'TREE_SYSTEM_USER_PERMISSION_ADD',
+            key: 'PermissionAdd',
+            actionType: '1',
+            icon: '',
+            permission: [4]
+          }
+        ],
+        permission: [7, 6, 4]
+      }
+    ],
+    permission: [26, 25, 22, 35, 32, 34, 36, 31, 7, 6, 4]
+  }
+];
