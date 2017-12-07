@@ -1,0 +1,13 @@
+.DS_Store
+.idea/
+.svn/
+lib/
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+src/components/TestPage/TestPage.vue
+.env
+.env.public.test
+.env.product

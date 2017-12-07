@@ -1,0 +1,88 @@
+.flat-button-font {
+  font-size: 14px;
+}
+
+.simple-dialog-class {
+  width: 560px;
+}
+
+.simple-dialog-header-class {
+  background-color: #0eb3fc;
+  height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.simple-dialog-footer-class {
+  background-color: #fafafa;
+  height: 50px;
+  position: relative;
+}
+
+.simple-dialog-body-class {
+  height: 190px;
+}
+
+.simple-dialog-body-class-no-padding {
+  padding: 0;
+}
+
+.hint-font-size-class {
+  font-size: 16px;
+}
+
+.checkbox-custom-uncheck {
+  color: #dddddd;
+  margin-top: 2px;
+  height: 20px;
+}
+
+.checkbox-custom-check {
+  height: 20px;
+  margin-top: 2px;
+}
+
+.login-icon-class {
+  top: 10px;
+  color: #bbbbbb;
+}
+
+.common-toast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 16px;
+  color: #0eb3fc;
+  opacity: .8;
+  min-width: 375px;
+  padding: 0 30px;
+}
+
+.select-drop-down .mu-dropDown-menu-text-overflow {
+  font-size: 16px !important;
+  padding-top: 1px!important;
+}
+
+.pagination-page-count-select .mu-dropDown-menu-text-overflow {
+  padding-top: 4px !important;
+}
+
+.pagination-one-page .mu-ripple-wrapper {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: not-allowed;
+  fill: currentColor;
+}
+
+.pagination-one-page .mu-pagination-svg-icon {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.home-sidebar .mu-item-left {
+  left: 26px;
+}
+
+.toggle-icon-class {
+  color: #bbbbbb;
+}

@@ -1,0 +1,66 @@
+/**
+ * Created by WebStorm.
+ * Author: enixlee
+ * Date: 2017/3/17
+ * Time: 下午4:51
+ * description: 可以由csv导出
+ */
+import {PROJECT_NAME_CN} from '../../config/App';
+
+const cn = {
+  PROJECT_NAME: PROJECT_NAME_CN,
+
+  // left tree
+  TREE_MERCHANT_MANAGE: '商户管理',
+  TREE_MERCHANT_MANAGE_ADD: '新增商户',
+  TREE_MERCHANT_MANAGE_QUERY: '查询商户',
+  TREE_MERCHANT_MANAGE_ACTIVITY: '商户活动',
+  TREE_MERCHANT_MANAGE_ACTIVITY_ADD: '新增活动',
+  TREE_MERCHANT_MANAGE_ACTIVITY_LIST: '活动列表',
+  TREE_MERCHANT_MANAGE_QUOTA: '商户预存金额',
+  TREE_MERCHANT_MANAGE_QUOTA_DETAIL: '预存金额详情',
+  TREE_MERCHANT_MANAGE_QUOTA_RECHARGE_RECORD: '充值记录',
+  TREE_MERCHANT_MANAGE_QUOTA_COST_RECORD: '消费记录',
+  TREE_PAYMENT_PRODUCT: '商户支付产品',
+  TREE_PAYMENT_PRODUCT_QUOTA: '预存金额',
+  TREE_PAYMENT_PRODUCT_QUOTA_OPEN: '开通预存金额',
+  TREE_PAYMENT_PRODUCT_QUOTA_LIST: '预存金额列表',
+  TREE_MEMBER_MANAGE: '会员管理',
+  TREE_MEMBER_MANAGE_PLATFORM: '平台会员',
+  TREE_MEMBER_MANAGE_PLATFORM_ADD: '新增会员',
+  TREE_MEMBER_MANAGE_PLATFORM_LIST: '会员列表',
+  TREE_MEMBER_MANAGE_MERCHANT: '商户会员',
+  TREE_MEMBER_MANAGE_MERCHANT_LIST: '商户会员汇总',
+  TREE_PLATFORM_MANAGE: '平台管理',
+  TREE_PLATFORM_MANAGE_SETTING: '平台设置',
+  TREE_PLATFORM_MANAGE_MANAGER: '平台管理员',
+  TREE_PLATFORM_MANAGE_MANAGER_ADD: '新增管理员',
+  TREE_PLATFORM_MANAGE_MANAGER_LIST: '管理员列表',
+  TREE_PLATFORM_MANAGE_ROLE: '平台角色',
+  TREE_PLATFORM_MANAGE_ROLE_ADD: '新增角色',
+  TREE_PLATFORM_MANAGE_ROLE_LIST: '角色列表',
+
+  BTN_LOGIN: '登录',
+  BTN_CONFIRM: '确定',
+  BTN_CANCEL: '取消',
+
+  LABEL_USERS_LOGIN: '用户登录',
+
+  PLACEHOLDER_USERNAME: '用户名',
+  PLACEHOLDER_PASSWORD: '密码',
+  PLACEHOLDER_CAPTCHA: '验证码',
+
+  DIALOG_TITLE_DEFAULT: '提示',
+
+  TIP_ASK_LOGOUT: '确认退出当前账号',
+
+  ERROR_LOGIN_PASSWORD_INPUT: '提示：密码为6-16位字母、数字或符号的组合',
+  ERROR_LOGIN_USERNAME_INPUT: '提示：用户名为6-16位字母、数字或符号的组合',
+  ERROR_LOGIN_VERIFY_CODE_INPUT: '请输入正确的图片验证码',
+
+  FOOTER_COMPANY_RECORD: '北京迷你付技术开发有限公司提供技术支持',
+  FOOTER_COPYRIGHT: 'Copyright © All Rights Reserved 北京迷你付 版权所有',
+  WELCOME_TO_SYSTEM: '欢迎使用{projectName}！',
+  VERSION: 'version:{version} build:{build}'
+};
+export default cn;

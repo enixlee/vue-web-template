@@ -1,0 +1,39 @@
+/*
+ * 组件过渡过程中，会有四个CSS类名进行切换，这四个类名与页面router文件中的transitionName属性有关，比如transitionName="fade"，会有如下四个CSS类名：
+ *  1.fade-enter：进入过渡的开始状态，元素被插入时生效，只应用一帧后立即删除；
+ *  2.fade-enter-active：进入过渡的结束状态，元素被插入时就生效，在过渡过程完成之后移除；
+ *  3.fade-leave：离开过渡的开始状态，元素被删除时触发，只应用一帧后立即删除；
+ *  4.fade-leave-active：离开过渡的结束状态，元素被删除时生效，离开过渡完成之后被删除
+ *
+ * 编写动画特效的时候请注意以上规则!!!
+ */
+.pop-out-enter-active,
+.pop-out-leave-active,
+.pop-in-enter-active,
+.pop-in-leave-active {
+  will-change: transform;
+  transition: all .5s cubic-bezier(.55, 0, .1, 1);
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+.pop-out-enter {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.pop-out-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.pop-in-enter {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.pop-in-leave-active {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}

@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b99a4c7-1314-4a63-b417-293e58861c1e" name="Default" comment="" />
+    <list default="true" id="6b99a4c7-1314-4a63-b417-293e58861c1e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Captcha/Captcha.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonBackground/CommonBackGround.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonInformation/CommonInformation.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonInput/CommonInput.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonMask/CommonMask.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonPageSearch/CommonPageSearch.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonQueryToolBar/AutoQueryToolBar.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonQueryToolBar/CommonQueryToolBar.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonSelect/CommonSelect.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/DropDownSearch/DropDownSearch.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/CircleDot.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/LoadMask.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/Spinner.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Pagination/Pagination.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/PmFooter/PmFooter.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialog.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialogConstants.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleInput/SimpleInput.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTable.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTbody.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTd.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTh.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusThead.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTr.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/OperationButton.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/TablePage.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/TablePageConstants.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/ToolTip/PromptBox.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/ToolTip/ToolTip.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/VerificationInput/VerificationInput.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/components/VerificationInput/VerificationInput.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/resource/HomeTree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/resource/PermissionChecker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/template/src/external/resource/TreeNode.js" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,38 +49,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BuildEnv.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/build/BuildEnv/BuildEnv.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <marker date="1512542637000" expanded="true" signature="0:68" ph="/** Auth: enixlee ...*/" />
-                <marker date="1512542637000" expanded="true" signature="803:2189" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="1011:1174" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="1063:1094" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="1100:1124" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="1213:1249" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2230:2577" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2370:2506" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2454:2481" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2618:4282" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2725:2747" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2781:2803" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="2820:3149" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="3155:3414" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="3566:3661" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="3630:3657" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="3952:4261" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="4026:4197" ph="{...}" />
-                <marker date="1512542637000" expanded="true" signature="4118:4146" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +114,19 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="BuildEnv" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="transform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512546817941</updated>
-      <workItem from="1512546819366" duration="33000" />
+      <workItem from="1512546819366" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33000" />
+    <option name="totallyTimeSpent" value="344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="96" width="1920" height="988" extended-state="6" />
@@ -164,17 +182,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -192,8 +210,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/template/build/BuildEnv/BuildEnv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <marker date="1512542637000" expanded="true" signature="0:68" ph="/** Auth: enixlee ...*/" />
             <marker date="1512542637000" expanded="true" signature="803:2189" ph="{...}" />
