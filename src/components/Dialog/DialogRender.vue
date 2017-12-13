@@ -1,5 +1,6 @@
 <template>
   <div class="DialogRender">
+    <component :is="dialogContent" :slotParams="slotParams"></component>
   </div>
 </template>
 <script type="text/javascript">
@@ -17,8 +18,10 @@
         default: {}
       }
     },
-    data () {
-      return {};
+    computed: {
+      dialogContent () {
+        return `Dialog${this.renderType}`;
+      }
     }
   };
 </script>

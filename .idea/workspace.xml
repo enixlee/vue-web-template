@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b99a4c7-1314-4a63-b417-293e58861c1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Captcha/Captcha.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonBackground/CommonBackGround.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonInformation/CommonInformation.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonInput/CommonInput.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonMask/CommonMask.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonPageSearch/CommonPageSearch.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonQueryToolBar/AutoQueryToolBar.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonQueryToolBar/CommonQueryToolBar.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/CommonSelect/CommonSelect.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/DropDownSearch/DropDownSearch.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/CircleDot.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/LoadMask.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Loading/Spinner.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Pagination/Pagination.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/PmFooter/PmFooter.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialog.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialog.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleDialog/SimpleDialogConstants.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/SimpleInput/SimpleInput.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTable.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTbody.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTd.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTh.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusThead.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/CusTr.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/OperationButton.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/TablePage.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/Table/TablePageConstants.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/ToolTip/PromptBox.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/ToolTip/ToolTip.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/VerificationInput/VerificationInput.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/components/VerificationInput/VerificationInput.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/resource/HomeTree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/resource/PermissionChecker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/template/src/external/resource/TreeNode.js" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/Dialog/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/plugin/DialogRender.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" afterPath="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" />
+      <change beforePath="$PROJECT_DIR$/src/plugin/index.js" afterPath="$PROJECT_DIR$/src/plugin/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,10 +19,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/plugin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#67#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Dialog/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" />
+        <option value="$PROJECT_DIR$/src/plugin/DialogRender.js" />
+        <option value="$PROJECT_DIR$/src/plugin/index.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,9 +67,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1920" />
-    <option name="y" value="73" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -87,8 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,38 +99,33 @@
             <path>
               <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="BuildEnv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="transform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,9 +134,15 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="standardjs.codestyle.accepted" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,31 +170,34 @@
       <option name="presentableId" value="Default" />
       <updated>1512546817941</updated>
       <workItem from="1512546819366" duration="344000" />
+      <workItem from="1512636669456" duration="179000" />
+      <workItem from="1513171664542" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344000" />
+    <option name="totallyTimeSpent" value="631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="96" width="1920" height="988" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2919563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -212,26 +216,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialog/DialogRender.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialog/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin/DialogRender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
-            <marker date="1512542637000" expanded="true" signature="0:68" ph="/** Auth: enixlee ...*/" />
-            <marker date="1512542637000" expanded="true" signature="803:2189" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="1011:1174" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="1063:1094" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="1100:1124" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="1213:1249" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2230:2577" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2370:2506" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2454:2481" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2618:4282" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2725:2747" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2781:2803" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="2820:3149" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="3155:3414" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="3566:3661" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="3630:3657" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="3952:4261" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="4026:4197" ph="{...}" />
-            <marker date="1512542637000" expanded="true" signature="4118:4146" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#67#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
