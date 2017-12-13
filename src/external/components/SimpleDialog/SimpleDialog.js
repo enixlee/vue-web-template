@@ -23,10 +23,15 @@ let close = function (type, instance) {
 
 let initInstance = function (type) {
   let instance = null;
+  let i18n = Vue.prototype.getPlugin('LangEngine');
+  let store = Vue.prototype.getPlugin('DataModule');
+
   switch (type) {
     case DIALOG_TYPE_SIMPLE:
       instance = new SimpleDialogConstructor({
-        el: document.createElement('div')
+        el: document.createElement('div'),
+        i18n,
+        store
       });
       break;
     default:
