@@ -5,14 +5,14 @@
     </transition>
     <div class="main-frame" v-if="!fullPageRouter">
       <home></home>
-      <mu-popup
-        position="top"
-        popupClass="common-toast"
-        :overlay="false"
-        :open="toastVisible"
-      >
-        <p></p>
-      </mu-popup>
+    </div>
+    <div>
+      <toast
+        v-show="toastVisible"
+        :message="message"
+        :toastType="toastType"
+        @hide="handleToastHide"
+      ></toast>
     </div>
   </div>
 </template>
@@ -20,18 +20,21 @@
 <script>
   import {PAGE_STACK_BACK, ROUTE_TYPE_FULL_PAGE} from './router/RouterConfigs';
   import Home from './components/Home/Home.vue';
+  import Toast from './external/components/Toast/Toast';
 
   export default {
     name: 'app',
     components: {
-      Home
+      Home,
+      Toast
     },
     data () {
       return {
         routerTransactionName: '',
         fullPageRouter: false,
         toastVisible: false,
-        message: ''
+        message: '',
+        toastType: 'success'
       };
     },
     created: function () {
@@ -53,14 +56,18 @@
           this.fullPageRouter = this.getRouteByName(routeName).routerViewType === ROUTE_TYPE_FULL_PAGE;
         }
       },
+      handleToastHide: function (e) {
+        this.$bus.emit(this.$constants.events.EVENT_HIDE_TOAST);
+      },
       hideToast: function () {
         this.toastVisible = false;
         if (this.toastTimer) {
           clearTimeout(this.toastTimer);
         }
       },
-      showToast: function (msg) {
+      showToast: function (msg, toastType) {
         this.message = msg;
+        this.toastType = toastType;
         this.toastVisible = true;
         if (this.toastTimer) {
           clearTimeout(this.toastTimer);

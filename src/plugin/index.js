@@ -10,7 +10,7 @@ import AuthUtil from './AuthUtils';
 import Storage from './Storage';
 import TablePage from './TablePage';
 import Money from './Money';
-import DialogRender from './DialogRender';
+import CustomComponents from './CustomComponentsRender';
 
 const Plugins = {
   install (Vue) {
@@ -21,7 +21,7 @@ const Plugins = {
     Vue.use(Storage);
     Vue.use(TablePage);
     Vue.use(Money);
-    Vue.use(DialogRender);
+    Vue.use(CustomComponents);
   }
 };
 

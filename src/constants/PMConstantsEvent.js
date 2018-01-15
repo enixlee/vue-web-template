@@ -48,6 +48,11 @@ export const EVENT_LEFT_TREE_NODE_UPDATE = 'EVENT_LEFT_TREE_NODE_UPDATE';
  */
 export const EVENT_SHOW_TOAST = 'EVENT_SHOW_TOAST';
 /**
+ * 气泡关闭
+ * @type {string}
+ */
+export const EVENT_HIDE_TOAST = 'EVENT_HIDE_TOAST';
+/**
  * 列表滚动
  * @type {string}
  */

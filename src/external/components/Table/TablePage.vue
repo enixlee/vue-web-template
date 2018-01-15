@@ -1,6 +1,6 @@
 <template>
   <div class="TablePage">
-    <cus-table>
+    <cus-table :fixedHeader="fixedHeader">
       <cus-thead slot="header">
         <cus-tr>
           <cus-th
@@ -20,16 +20,23 @@
       </cus-thead>
       <cus-tbody slot="body" class="table-page-body">
         <spinner class="loading" v-if="loading"></spinner>
-        <cus-tr v-if="!loading" v-for="(item, index) in list" :key="index">
+        <cus-tr class="table-page-body-row" v-if="!loading" v-for="(item, index) in list" :key="index">
           <cus-td
+            class="table-page-body-row-td"
             v-for="(v, i) in titles"
             :key="i"
             :style="`width: ${v.width}%; color: ${item.getColor(v.key)}`"
             :alignStyle="v.align || 'center'"
             :leftSpace="leftSpace"
-          >{{getItemValue(item, v)}}
+          >
+            <div slot="columnText" v-if="getColumnComponentType(item,v) === 'text'">{{getItemValue(item, v)}}</div>
+            <div slot="columnCustom" v-if="getColumnComponentType(item,v) !== 'text'">
+              <component :is="getColumnComponentType(item,v)"
+                         :columnModel="item" :columnConfig="v">
+              </component>
+            </div>
           </cus-td>
-          <cus-td v-if="operation.length>0">
+          <cus-td v-if="operation.length>0" class="table-page-body-row-td">
             <operation-button
               v-for="(op, index) in operation" :key="index"
               v-if="item.couldOperate(op.type)"
@@ -99,7 +106,8 @@
       loading: {
         type: Boolean,
         default: false
-      }
+      },
+      fixedHeader: {}
     },
     methods: {
       getItemValue: function (item, titleObj) {
@@ -109,6 +117,9 @@
           value = titleObj.formatValue(value, item);
         }
         return value;
+      },
+      getColumnComponentType (item, titleObj) {
+        return item.columnComponentType(titleObj.key);
       }
     }
   };
@@ -125,12 +136,29 @@
     .table-page-body {
       position: relative;
     }
-
     .loading {
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    .table-page-body-row {
+      border-top: 1px dashed @color-eaeff5;
+      background-clip: padding-box;
+
+      &:first-child {
+        border-top: none;
+      }
+      &:hover {
+        background-color: #f3fbff;
+        .table-page-body-row-td {
+          border-left-color: #f3fbff;
+        }
+      }
+      .table-page-body-row-td {
+        border-left: dashed transparent;
+      }
     }
   }
 </style>

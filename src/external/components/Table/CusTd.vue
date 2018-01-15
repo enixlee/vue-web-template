@@ -1,6 +1,8 @@
 <template>
   <td class="CusTd" :align="alignStyle" :style="leftSpaceStyle">
     <slot></slot>
+    <slot name="columnText"></slot>
+    <slot name="columnCustom"></slot>
   </td>
 </template>
 
@@ -19,7 +21,7 @@
     },
     computed: {
       leftSpaceStyle () {
-        return {'border-left': `${this.leftSpace}px dashed transparent`};
+        return {'border-left-width': `${this.leftSpace}px`};
       }
     }
   };
@@ -33,7 +35,6 @@
     font-size: 14px;
     color: @color-333333;
     vertical-align: middle;
-    border-bottom: 1px dashed @color-eaeff5;
-    word-break:break-all;
+    word-break: break-all;
   }
 </style>

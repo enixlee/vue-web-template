@@ -405,8 +405,8 @@ export const showCustomDialog = (renderType, title, leftBtnTxt, rightBtnTxt, lef
  * 显示toast
  * @param message
  */
-export const showToast = (message) => {
-  Vue.prototype.eventBus.emit(Vue.constants.events.EVENT_SHOW_TOAST, message);
+export const showToast = (message, toastType = 'success') => {
+  Vue.prototype.eventBus.emit(Vue.constants.events.EVENT_SHOW_TOAST, message, toastType);
 };
 /**
  * 删除空白字符

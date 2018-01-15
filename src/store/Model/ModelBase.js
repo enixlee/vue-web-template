@@ -17,6 +17,10 @@ class ModelBase {
     return {};
   }
 
+  appends () {
+    return [];
+  }
+
   modifyUserStoreState (stateSubject) {
     Vue.prototype.getPlugin('Assert').isString(stateSubject);
     this.stateSubject = stateSubject;
@@ -34,20 +38,34 @@ class ModelBase {
     return this;
   }
 
-  filterKV (key) {
+  get (key) {
+    let lodash = Vue.prototype.getPlugin('lodash');
+
+    if (lodash.has(this.properties, key)) {
+      return this.properties[key];
+    }
+
+    let appends = this.appends();
+    let difference = lodash.difference(appends, [key]);
+    if (difference.length === appends.length - 1) {
+      let attributeGenerator = this.__formatAttributeName(key);
+      if (lodash.isFunction(this[attributeGenerator])) {
+        return this[attributeGenerator]();
+      }
+    }
+
     return null;
   }
 
-  get (key) {
-    Vue.prototype.getPlugin('Assert').isString(key);
-
-    let filter = this.filterKV(key);
-
-    if (filter !== null) {
-      return filter;
-    }
-
-    return this.properties[key];
+  __formatAttributeName (key) {
+    let lodash = Vue.prototype.getPlugin('lodash');
+    let names = lodash.split(key, '_');
+    let attributeName = '';
+    lodash.map(names, function (v) {
+      attributeName += lodash.capitalize(v);
+    });
+    console.info(attributeName);
+    return `get${attributeName}Attribute`;
   }
 
   set (key, value) {
@@ -70,14 +88,6 @@ class ModelBase {
 
   toArray () {
     return this.properties;
-  }
-
-  couldOperate (operateType) {
-    return false;
-  }
-
-  getColor () {
-    return null;
   }
 
   uniqueKey () {
