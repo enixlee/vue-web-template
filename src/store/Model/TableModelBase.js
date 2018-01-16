@@ -10,16 +10,24 @@ class TableModelBase extends ModelBase {
     super(modelName || 'TableModelBase');
   }
 
-  couldOperate (operateType) {
-    return false;
+  /**
+   * 操作按钮的声明字典
+   * @returns {{}}
+   */
+  operations () {
+    return {};
   }
 
-  getColor () {
-    return null;
-  }
-
+  /**
+   * 自定义ugc的map
+   * @returns {{}}
+   */
   customColumnComponents () {
     return {};
+  }
+
+  getColumnColor (key) {
+    return null;
   }
 
   columnComponentType (key) {

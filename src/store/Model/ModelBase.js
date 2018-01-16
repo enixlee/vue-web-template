@@ -11,6 +11,17 @@ class ModelBase {
     this.modelName = modelName;
     this.stateSubject = null;
     this.properties = this.data();
+
+    let lodash = Vue.prototype.getPlugin('lodash');
+    let Assert = Vue.prototype.getPlugin('Assert');
+    let data = this.properties;
+    lodash.map(this.appends(), function (v) {
+      Assert.isTrue(!lodash.has(data, v), `data and appends has the same key, model is ${modelName}, key is ${v}`);
+    });
+  }
+
+  modelType () {
+    return this.modelName;
   }
 
   data () {
@@ -57,14 +68,18 @@ class ModelBase {
     return null;
   }
 
-  __formatAttributeName (key) {
+  buildKeyName (key) {
     let lodash = Vue.prototype.getPlugin('lodash');
     let names = lodash.split(key, '_');
     let attributeName = '';
     lodash.map(names, function (v) {
       attributeName += lodash.capitalize(v);
     });
-    console.info(attributeName);
+    return attributeName;
+  }
+
+  __formatAttributeName (key) {
+    let attributeName = this.buildKeyName(key);
     return `get${attributeName}Attribute`;
   }
 

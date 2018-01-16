@@ -25,7 +25,7 @@
             class="table-page-body-row-td"
             v-for="(v, i) in titles"
             :key="i"
-            :style="`width: ${v.width}%; color: ${item.getColor(v.key)}`"
+            :style="`width: ${v.width}%;`"
             :alignStyle="v.align || 'center'"
             :leftSpace="leftSpace"
           >
@@ -38,11 +38,11 @@
           </cus-td>
           <cus-td v-if="operation.length>0" class="table-page-body-row-td">
             <operation-button
-              v-for="(op, index) in operation" :key="index"
-              v-if="item.couldOperate(op.type)"
-              :label="getLang(`TABLE_PAGE_OPERATOR_TYPE_${op.type}`)"
+              v-for="(op, index) in operation"
+              :key="index"
               :alignStyle="item.align || 'center'"
-              @handleClick="op.action(item)"
+              :rowModel="item"
+              :operationConfig="op"
             ></operation-button>
           </cus-td>
         </cus-tr>
@@ -151,9 +151,9 @@
         border-top: none;
       }
       &:hover {
-        background-color: #f3fbff;
+        background-color: @color-f3fbff;
         .table-page-body-row-td {
-          border-left-color: #f3fbff;
+          border-left-color: @color-f3fbff;
         }
       }
       .table-page-body-row-td {
