@@ -18,8 +18,8 @@ BASE_CONFIGURE: {
 }
 CUSTOM_CONFIGURE: {
   RPC: {
-    CODE_TEMPLATE_NAME: "code-template-zhongbai",
-    CODE_TEMPLATE_GIT: "https://gitlab.paymini.com.cn/lijiang/code-template-zhongbai.git",
+    CODE_TEMPLATE_NAME: "code-template-sdkmanage",
+    CODE_TEMPLATE_GIT: "https://gitlab.paymini.com.cn/codeTemplate/code-template-sdkmanage.git",
     CODE_TEMPLATE_PATH: "/CodeTemplates/Rpc/SDKZhongBai",
     COMPOSER_UPDATE_AFTER_PULL: true
   },

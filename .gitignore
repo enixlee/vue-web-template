@@ -11,3 +11,6 @@ src/components/TestPage/TestPage.vue
 .env
 .env.public.test
 .env.product
+zhongbai-csv/
+code-template-sdkmanage/
+build/configure.yaml
