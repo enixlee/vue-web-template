@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b99a4c7-1314-4a63-b417-293e58861c1e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/CustomTableColumns/CustomColumnRender.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/external/components/SimpleDialog/CustomDialogRender.vue" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomTableColumns/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" afterPath="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue" afterPath="$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue" />
       <change beforePath="$PROJECT_DIR$/src/external/components/Table/TablePage.vue" afterPath="$PROJECT_DIR$/src/external/components/Table/TablePage.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,14 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TablePage.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/external/components/Table/TablePage.vue">
+      <file leaf-file-name="SimpleDialog.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="33" column="97" lean-forward="false" selection-start-line="33" selection-start-column="97" selection-end-line="33" selection-end-column="97" />
-              <folding>
-                <element signature="e#1980#2014#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="235">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/components/CustomTableColumns/index.js" />
         <option value="$PROJECT_DIR$/src/components/Dialog/DialogRender.vue" />
         <option value="$PROJECT_DIR$/src/external/components/Table/TablePage.vue" />
+        <option value="$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue" />
       </list>
     </option>
   </component>
@@ -114,7 +111,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +152,27 @@
               <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="external" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="external" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="external" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleDialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-web-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-web-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +192,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,11 +208,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/external/components/SimpleDialog" />
       <recent name="$PROJECT_DIR$/src/components/CustomTableColumns" />
       <recent name="$PROJECT_DIR$/src/store/Model" />
       <recent name="$PROJECT_DIR$/src/external/components" />
       <recent name="$PROJECT_DIR$/src/plugin" />
-      <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,12 +248,13 @@
       <workItem from="1516075793791" duration="904000" />
       <workItem from="1516102637777" duration="334000" />
       <workItem from="1516175255698" duration="514000" />
-      <workItem from="1516274235486" duration="86000" />
+      <workItem from="1516274235486" duration="106000" />
+      <workItem from="1516278005682" duration="96000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3802000" />
+    <option name="totallyTimeSpent" value="3918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -272,13 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/Model/TableModelBase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -359,20 +371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dialog/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialog/index.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -558,13 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CustomTableColumns/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomTableColumns/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/CustomTableColumns/ColumnColorText.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -604,11 +597,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/external/components/Table/TablePage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="33" column="97" lean-forward="false" selection-start-line="33" selection-start-column="97" selection-end-line="33" selection-end-column="97" />
+        <state relative-caret-position="175">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="e#1980#2014#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/external/components/SimpleDialog/CustomDialogRender.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/external/components/SimpleDialog/SimpleDialog.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

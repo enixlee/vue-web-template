@@ -58,7 +58,6 @@
   import CusTd from './CusTd';
   import OperationButton from './OperationButton.vue';
   import Spinner from '../Loading/Spinner.vue';
-  import CustomColumnRender from '../../../components/CustomTableColumns/CustomColumnRender';
 
   export default {
     name: 'TablePage',
@@ -71,7 +70,9 @@
       CusTr,
       CusTh,
       CusTd,
-      CustomColumnRender
+      CustomColumnRender: function (resolve) {
+        require(['../../../components/CustomTableColumns/CustomColumnRender.vue'], resolve);
+      }
     },
     props: {
       titles: {

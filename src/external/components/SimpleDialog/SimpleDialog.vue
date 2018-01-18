@@ -22,8 +22,12 @@
       >
         {{content}}
       </div>
-      <dialog-render class="dialog-custom-render" v-if="showCustomSlot" :renderType="renderType"
-                     :slotParams="slotParams"></dialog-render>
+      <custom-dialog-render
+        class="dialog-custom-render"
+        v-if="showCustomSlot"
+        :renderType="renderType"
+        :slotParams="slotParams"
+      ></custom-dialog-render>
       <div
         class="bottom-tip"
         slot="actions"
@@ -48,11 +52,11 @@
 </template>
 
 <script type="text/javascript">
-  import DialogRender from '../../../components/Dialog/DialogRender.vue';
+  import CustomDialogRender from './CustomDialogRender';
 
   export default {
     name: 'SimpleDialog',
-    components: {DialogRender},
+    components: {CustomDialogRender},
     props: {
       title: {
         type: String,
@@ -207,6 +211,7 @@
     position: relative;
     width: 560px;
   }
+
   .bottom-tip {
     position: absolute;
     left: 24px;
