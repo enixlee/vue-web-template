@@ -31,9 +31,7 @@
           >
             <div slot="columnText" v-if="getColumnComponentType(item,v) === 'text'">{{getItemValue(item, v)}}</div>
             <div slot="columnCustom" v-if="getColumnComponentType(item,v) !== 'text'">
-              <component :is="getColumnComponentType(item,v)"
-                         :columnModel="item" :columnConfig="v">
-              </component>
+              <custom-column-render :columnModel="item" :columnConfig="v"></custom-column-render>
             </div>
           </cus-td>
           <cus-td v-if="operation.length>0" class="table-page-body-row-td">
@@ -60,6 +58,7 @@
   import CusTd from './CusTd';
   import OperationButton from './OperationButton.vue';
   import Spinner from '../Loading/Spinner.vue';
+  import CustomColumnRender from '../../../components/CustomTableColumns/CustomColumnRender';
 
   export default {
     name: 'TablePage',
@@ -71,7 +70,8 @@
       CusTbody,
       CusTr,
       CusTh,
-      CusTd
+      CusTd,
+      CustomColumnRender
     },
     props: {
       titles: {

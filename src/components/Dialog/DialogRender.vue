@@ -20,7 +20,7 @@
     },
     computed: {
       dialogContent () {
-        return `Dialog${this.renderType}`;
+        return require(`./Dialog${this.renderType}`);
       }
     }
   };
